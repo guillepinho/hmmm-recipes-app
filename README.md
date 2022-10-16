@@ -3,6 +3,7 @@
 Este projeto foi desenvolvido em equipe, durante o módulo de front-end do curso de desenvolvimento de software na Trybe, com a seguinte equipe:
 
 SM: Guillepinho
+
 TL: Lucas Dainez
 Team:
   - Maycol Mohr
