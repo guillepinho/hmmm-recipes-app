@@ -1,0 +1,97 @@
+.recipe-details {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.img-det-section {
+  height: 200px;
+  position: relative;
+  width: 360px;
+}
+
+.recipe-pic-details {
+  filter: brightness(0.8);
+  height: 200px;
+  object-fit: cover;
+  width: 360px;
+}
+
+.waved-bar {
+  background-image: url('../images/RecipeDetailsBar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  height: 55px;
+  position: absolute;
+  width: 360px;
+}
+
+.title-and-category {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.home-button-icon {
+  cursor: pointer;
+  height: 30px;
+  width: 35px;
+}
+
+.recipe-det-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.det-buttons > button {
+  background-color: rgba(240, 240, 240, 0);
+  border: 0;
+}
+
+.recipe-det-alcohol {
+  padding: 0 10px;
+}
+
+.ingredients {
+  columns: 2;
+  font-size: 14px;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+.det-instructions {
+  margin-bottom: 60px;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+.start-recipe-btn:disabled {
+  align-items: center;
+  border: 0;
+  border-top: 1px solid rgb(150, 150, 150);
+  bottom: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  height: 50px;
+  justify-content: center;
+  padding: 0 10px;
+  position: fixed;
+  width: 360px;
+  z-index: 97;
+}
+
+.start-recipe-btn:disabled {
+  background-color: rgb(240, 240, 240, 0.7);
+}
+
+.ingredients input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.ingredients input[type="checkbox"]:checked {
+  accent-color: rgb(255, 99, 26);
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap') ;
+
+* {
+  font-family: Roboto , sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  box-sizing: border-box;
+  height: 640px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 360px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

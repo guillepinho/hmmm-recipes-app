@@ -1,0 +1,69 @@
+.login-bg {
+  align-items: center;
+  background-image: url('../images/BGIMG.png');
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.recipes-app-logo {
+  position: absolute;
+  background-image: url('../images/hmmmlogo.png');
+  height: 51px;
+  width: 186px;
+  top: 10px;
+}
+
+.space-div {
+  height: 51px;
+}
+
+.login-form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+.login-input, .login-button {
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 40px;
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+}
+
+.login-input {
+  width: 320px;
+}
+
+.login-button {
+  background-color: rgb(255, 99, 26);
+  color: white;
+  cursor: pointer;
+  width: 135px;
+  border: 0;
+}
+
+.login-button:hover {
+  background-color: rgb(255, 111, 45);
+}
+
+.login-button:disabled {
+  background-color: lightgrey;
+  color: white;
+  cursor: auto;
+}
+
+.login-button::placeholder, .login-input::placeholder {
+  text-align: center;
+}
+
+.create-acc {
+  color: rgb(255, 99, 26);
+  text-decoration: underline;
+  cursor: pointer;
+}

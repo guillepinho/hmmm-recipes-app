@@ -1,0 +1,63 @@
+.profile-container {
+  position: relative;
+  top: 50px;
+}
+
+.login-data {
+  align-items: center;
+  color: rgb(255, 99, 26);
+  display: flex;
+  font-weight: 700;
+  height: 30px;
+  justify-content: center;
+  width: 360px;
+}
+
+.profile-buttons {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.profile-button {
+  background-color: rgb(255, 99, 26);
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  width: 150px;
+}
+
+.user-avatar {
+  width: 50px;
+  filter: invert(1);
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: rgb(255, 99, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-info {
+  padding-top: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-profile {
+  background-color: rgb(255, 99, 26);
+  position: fixed;
+  bottom: 0;
+  width: 360px;
+  height: 40px;
+}

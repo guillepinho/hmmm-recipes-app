@@ -1,0 +1,164 @@
+.top-bar, .search-bar {
+  background-color: white;
+  border-bottom: 1px solid rgba(200, 200, 200, 1);
+  height: 50px;
+  padding: 0 10px;
+}
+
+.but-logo {
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  justify-self: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.top-bar {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 360px;
+  z-index: 99;
+}
+
+.top-bar-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.recipes-app-logo-top-bar {
+  background-image: url('../images/hmmmlogo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  justify-self: center;
+  width: 75px;
+}
+
+.search-icon {
+  background-image: url('../images/Magglass.png');
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.menu-icon {
+  background-image: url('../images/BarCat.png');
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.icon-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  cursor: pointer;
+}
+
+.search-bar {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+  height: 60px;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  width: 360px;
+  z-index: 98;
+  transition: transform .4s, visibility .4s;
+  visibility: hidden;
+}
+
+.show {
+  transform: translateY(50px);
+  visibility: visible;
+}
+
+.search-text-and-button {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.search-input {
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 40px;
+  flex-grow: 1;
+  height: 25px;
+  text-align: center;
+}
+
+.search-input:focus {
+  outline-style: none;
+}
+
+.search-input::placeholder {
+  text-align: center;
+}
+
+.search-btn {
+  background-color: rgb(255, 99, 26);
+  border: 0;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  width: 60px;
+}
+
+.title-filter {
+  font-weight: 700;
+}
+
+.filter-buttons {
+  color: rgb(255, 99, 26);
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.filter-buttons input[type="radio"] {
+  display: none;
+}
+
+.filter-buttons label {
+  text-decoration: none;
+  transition: text-decoration .2s;
+  position: relative;
+}
+
+.filter-buttons label::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(255, 99, 26);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  z-index: 99;
+}
+
+.filter-buttons label:hover::after,
+.filter-buttons label:focus::after {
+  opacity: 1;
+  transform: translate3d(0, -0.1em, 0);
+}
+
+.filter-buttons input[type="radio"]:checked+label {
+  text-decoration: underline;
+  font-weight: 700;
+}

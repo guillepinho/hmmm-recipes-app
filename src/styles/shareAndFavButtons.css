@@ -1,0 +1,17 @@
+.share-and-fav-buttons > button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  position: relative;
+}
+
+.icon-btn {
+  height: 30px;
+  width: 35px;
+}
+
+.link-copied {
+  position: absolute;
+  bottom: -20px;
+  right: 5px;
+  color: rgba(255, 99, 26, 1)
+}
