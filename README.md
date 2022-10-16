@@ -2,14 +2,13 @@
 
 Este projeto foi desenvolvido em equipe, durante o módulo de front-end do curso de desenvolvimento de software na Trybe, com a seguinte equipe:
 
-SM: Guillepinho
-TL: Lucas Dainez
-Team:
+**SM**: Guillepinho
+&nbsp;
+**TL**: Lucas Dainez
+**Team**:
   - Maycol Mohr
   - Leonardo Araujo
   - Henrique Rocha
-
-Fique a vontade para contribuir e utilizar.
 
 O app de receitas utiliza o que há de mais moderno dentro do ecossistema React: Hooks e Context API!
 
