@@ -18,7 +18,7 @@ Os dados das receitas vêm de 2 APIs distintas, uma para comidas e outra para be
 
 O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores (de 360px de largura).
 
-Para visualizar o projeto: https://guillepinho.github.io/hmmm-recipes-app
+Para visualizar o projeto: https://hmmm-recipes-app-guillepinho.vercel.app/
 
 ## APIs utilizadas
 
