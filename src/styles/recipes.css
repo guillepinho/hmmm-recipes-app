@@ -4,7 +4,7 @@
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-flow: column nowrap;
-  left: 360px;
+  right: -135px;
   width: 135px;
   gap: 5px;
   justify-content: center;
@@ -65,7 +65,7 @@
   position: absolute;
   text-align: center;
   transition: 0.3s ease-in-out;
-  width: 340px;
+  width: 100%;
 }
 
 .recipe-pic:hover {

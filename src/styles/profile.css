@@ -1,16 +1,6 @@
 .profile-container {
   position: relative;
-  top: 50px;
-}
-
-.login-data {
-  align-items: center;
-  color: rgb(255, 99, 26);
-  display: flex;
-  font-weight: 700;
-  height: 30px;
-  justify-content: center;
-  width: 360px;
+  top: 70px;
 }
 
 .profile-buttons {
@@ -36,6 +26,11 @@
   filter: invert(1);
 }
 
+.login-data {
+  color: rgb(255, 99, 26);
+  font-weight: 700;
+}
+
 .avatar {
   width: 70px;
   height: 70px;
@@ -58,6 +53,6 @@
   background-color: rgb(255, 99, 26);
   position: fixed;
   bottom: 0;
-  width: 360px;
+  width: 100%;
   height: 40px;
 }

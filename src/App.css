@@ -12,10 +12,10 @@
 
 body {
   box-sizing: border-box;
-  height: 640px;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  width: 360px;
+  width: 100vw;
 }
 
 a {

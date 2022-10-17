@@ -38,7 +38,6 @@ function FavoriteRecipes() {
   const createCards = (array) => array
     .map(({ id, type, category, name, image, alcoholicOrNot }, index) => (
       <div key={ id } className="recipe-card-done">
-        { console.log(showRecipes) }
         <Link to={ `/${type}s/${id}` }>
           <img
             className="recipe-pic"

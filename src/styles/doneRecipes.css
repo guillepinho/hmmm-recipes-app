@@ -46,7 +46,7 @@
   position: absolute;
   text-align: center;
   transition: 0.3s ease-in-out;
-  width: 340px;
+  width: 100%;
 }
 
 .recipe-pic:hover {

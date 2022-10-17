@@ -36,12 +36,13 @@ function DoneRecipes() {
   const prepareObject = async (type, id) => {
     const thisRecipe = await fetchApi(type, id);
     const thisRecipeObj = thisRecipe[`${type}s`][0];
-    const typeOf = type === 'meals' ? 'meal' : 'drink';
+    const typeOf = type === 'meals' || type === 'meal' ? 'meal' : 'drink';
     const nationality = thisRecipeObj.strArea || '';
     const category = thisRecipeObj.strCategory || '';
     const alcoholicOrNot = thisRecipeObj.strAlcoholic || '';
-    const name = type === 'meals' ? thisRecipeObj.strMeal : thisRecipeObj.strDrink;
-    const image = type === 'meals'
+    const name = type === 'meals' || type === 'meal'
+      ? thisRecipeObj.strMeal : thisRecipeObj.strDrink;
+    const image = type === 'meals' || type === 'meal'
       ? thisRecipeObj.strMealThumb
       : thisRecipeObj.strDrinkThumb;
 
